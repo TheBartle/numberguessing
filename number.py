@@ -1,4 +1,4 @@
-import random
+import random, time
 
 randomNumber = random.randrange(1, 100)
 userNumber = 0
@@ -15,4 +15,5 @@ while True:
     elif userNumber == randomNumber:
         print("Udało Ci się odgadnąć liczbę!!!")
         print("Oto ilość Twoich prób: " + str(attempts))
+        time.sleep(10)
         break
