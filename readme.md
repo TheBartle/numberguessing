@@ -1,4 +1,4 @@
 # Number Guessing
 ### Python project
 
-- [ ] Dodać zapisywanie poprzednich liczb
+- [x] Dodać zapisywanie poprzednich liczb
